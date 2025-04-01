@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    font-size: 18px;
+    width: 100%;      
+    background-color: #604829;
+    position: relative;
+    height: 60px;
+}
+.topo a {
+    text-decoration: none;
+    color: #c4a47c;
+    margin-left: 5px;
+    text-shadow: 3px 4px 1px black;
+    font-family: 'oswald', sans-serif;
+    font-size: 18px;
+}
+.topo img {
+    left: 8%;
+    width: 5%;
+    height: 55px;
+    position: absolute;
+    top: 2%;
+} 
+.topo p {
+    top: 35%;
+    right: 15%;
+    position: absolute
+}
+
+.banner-img {
+    height: 100vh;
+    background-image: url('IMG/parallax-imagem1.png');
+    background-attachment: fixed;
+    position: relative;
+}
+.banner-img h1 {
+    position: absolute;
+    top: 45%;
+    left: 16%;
+    font-size: 88px;
+    color: #fff;
+    font-family: 'fraunces'
+}
+
+h2 {
+    color: #c4a47c;
+    font-family: 'oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    text-align: center;
+    font-family: 'lato';
+    font-size: 16px;
+}
+
+.info5 {
+    background-color: #fff;
+    
+    position: relative;
+    margin: 60px 500px 80px 500px;
+}
+.info5 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner2 {
+    background-image: url('IMG/parallax-imagem2.jpg');
+    padding-top: 12%;
+    padding-bottom: 12%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner2 h2 {
+    font-family: 'fraunces';
+    font-size: 24px; 
+    margin-left: 750px;
+    margin-right: 750px;
+    background-color: #604829;
+    padding: 10px 0px;
+    color: #fff;
+}
+.banner3 {
+    background-image: url('IMG/parallax-imagem3.jpg');
+    padding-top: 12%;
+    padding-bottom: 12%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner3 h2 {
+    font-family: 'fraunces';
+    font-size: 24px; 
+    margin-left: 750px;
+    margin-right: 750px;
+    background-color: #604829;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.banner4 {
+    background-image: url('IMG/parallax-imagem4.png');
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner4 h2 {
+    font-family: 'oswald', sans-serif;
+    font-size: 24px; 
+    margin-left: 750px;
+    margin-right: 750px;
+    background-color: #604829;
+    padding: 10px 0px;
+    color: #fff;
+    position: relative;
+}
+.banner4 p {
+    background-color: #604829;
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'oswald', sans-serif;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+iframe {
+    margin-left: 21%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.horarios {
+    background-image: url('IMG/cafeteria.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 200px 10px;
+    margin-bottom: 0;
+    
+}
+.horarios h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.horarios ul {
+    position: relative;
+    list-style-type: none;
+}
+
+.horarios li div {
+    width: 100%;
+    max-width: 500px;
+    background-color: #acacac;
+    padding: 1px 0 0 0;
+    position: absolute;
+    margin-left: 130px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.horarios li {
+    margin-left: 30%;
+    margin-bottom: 0;
+}
+.horarios h3 {
+    padding: 0;
+    margin-right: 20px;
+}
+.horarios p {
+    margin-left: 100px;
+    padding: 0;
+    padding-top: 0;
+}
+span {
+    color: #c4a47c
+}
+.rodape {
+    background-color: #000000;
+    padding: 35px 0;
+}
+.rodape p {
+    color: #fff;
+    margin: 0px auto;
+}
+
+.seta {
+    border: 1px solid 3px;
+    position: fixed;
+    right: 4%;
+    bottom: 3%;
+}
