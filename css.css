@@ -8,8 +8,9 @@
     font-size: 18px;
     width: 100%;      
     background-color: #604829;
-    position: relative;
-    height: 60px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-around;
 }
 .topo a {
     text-decoration: none;
@@ -20,16 +21,10 @@
     font-size: 18px;
 }
 .topo img {
-    left: 8%;
-    width: 5%;
-    height: 55px;
-    position: absolute;
-    top: 2%;
+    width: 37%;
 } 
 .topo p {
-    top: 35%;
-    right: 15%;
-    position: absolute
+    margin-top: 40px;
 }
 
 .banner-img {
